@@ -1,0 +1,227 @@
+    body {
+        background-color: #181818;
+        color: white;
+    }
+    
+    #logo {
+        margin-top: 3%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 9vmin;
+        color: #8bf;
+        font-family: Lato, sans-serif;
+        font-weight: 700;
+        margin: 1rem 0 1rem 2rem;
+    }
+    /* Typewriter effect 1 */
+    
+    @keyframes typing {
+        0.0000%,
+        27.3488% {
+            content: "";
+        }
+        1.1395%,
+        26.2093% {
+            content: "a";
+        }
+        2.2791%,
+        25.0698% {
+            content: "ar";
+        }
+        3.4186%,
+        23.9302% {
+            content: "aro";
+        }
+        4.5581%,
+        22.7907% {
+            content: "arou";
+        }
+        5.6977%,
+        21.6512% {
+            content: "aroun";
+        }
+        6.8372%,
+        20.5116% {
+            content: "around";
+        }
+        7.9767%,
+        19.3721% {
+            content: "around.";
+        }
+        9.1163%,
+        18.2326% {
+            content: "around..";
+        }
+        10.2558%,
+        17.0930% {
+            content: "around...";
+        }
+        30.7674%,
+        51.2791% {
+            content: "";
+        }
+        31.9070%,
+        50.1395% {
+            content: "y";
+        }
+        33.0465%,
+        49.0000% {
+            content: "yo";
+        }
+        34.1860%,
+        47.8605% {
+            content: "you";
+        }
+        35.3256%,
+        46.7209% {
+            content: "you ";
+        }
+        36.4651%,
+        45.5814% {
+            content: "you a";
+        }
+        37.6047%,
+        44.4419% {
+            content: "you ar";
+        }
+        38.6977%,
+        43.2093% {
+            content: "you are";
+        }
+        39.8372%,
+        42.0698% {
+            content: "you are.";
+        }
+        40.9767%,
+        41.9302% {
+            content: "you are..";
+        }
+        41.1163%,
+        40.7907% {
+            content: "you are...";
+        }
+    }
+    
+    @keyframes blink {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+    
+    .typewriter {
+        --caret: currentcolor;
+    }
+    
+    .typewriter::before {
+        content: "";
+        animation: typing 13.5s infinite;
+    }
+    
+    .typewriter::after {
+        content: "";
+        border-right: 1px solid var(--caret);
+        animation: blink 0.5s linear infinite;
+    }
+    
+    .typewriter.thick::after {
+        border-right: 1ch solid var(--caret);
+    }
+    
+    .typewriter.nocaret::after {
+        border-right: 0;
+    }
+    
+    @media (prefers-reduced-motion) {
+        .typewriter::after {
+            animation: none;
+        }
+        @keyframes sequencePopup {
+            0%,
+            100% {
+                content: "around.";
+            }
+            30% {
+                content: "way you are.";
+            }
+        }
+        .typewriter::before {
+            content: "around";
+            animation: sequencePopup 12s linear infinite;
+        }
+    }
+    
+    #name {
+        text-align: center;
+        font-size: 350%;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .btn-container {
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    
+    .btn {
+        border: 0px;
+        margin-left: 3%;
+        border-style: solid;
+        border-width: 0px;
+        text-align: center;
+        letter-spacing: 2px;
+        box-sizing: border-box;
+        cursor: default;
+        border-color: #181818;
+        /* width: 10%; */
+        background-color: #181818;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .btn:hover {
+        color: rgb(158, 158, 158);
+    }
+    
+    .btncontainer {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    
+    @keyframes blink_ {
+        from {
+            background-color: white;
+        }
+        to {
+            background-color: #181818;
+        }
+    }
+    
+    .dash {
+        float: left;
+        margin-left: 10%;
+        width: 10px;
+        height: 5px;
+        background-color: white;
+        animation-name: blink_;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    #_1 {
+        margin-left: 38%;
+    }
+    
+    #l {
+        margin-left: 6%;
+    }
