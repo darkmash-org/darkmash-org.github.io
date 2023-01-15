@@ -270,24 +270,20 @@ h2 {
   margin-left: 20%;
   margin-bottom: 3%;
 }
-/* width */
 
 ::-webkit-scrollbar {
   width: 10px;
 }
-/* Track */
 
 ::-webkit-scrollbar-track {
   border-radius: 5px;
   background: #181818;
 }
-/* Handle */
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: rgb(255, 255, 255);
 }
-/* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
   background: whitesmoke;
@@ -338,8 +334,6 @@ h2 {
   margin-top: 3%;
   position: relative;
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
-  /* If you want dots under the hoverable text */
 }
 /* Tooltip text */
 
@@ -358,11 +352,9 @@ h2 {
   font-size: small;
   padding: 5px 0;
   border-radius: 6px;
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
-/* Show the tooltip text when you mouse over the tooltip container */
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -399,7 +391,6 @@ h2 {
   border-color: #ffffff;
   border-style: dashed;
   border-width: 2px;
-  /* visibility: hidden; */
   width: 200px;
   background-color: #181818;
   color: #fff;
@@ -407,7 +398,6 @@ h2 {
   font-size: small;
   padding: 5px 0;
   border-radius: 6px;
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
