@@ -8,6 +8,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 150px;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
   font-family: Lato, sans-serif;
   font-weight: 700;
   margin: 1rem 0 1rem 2rem;
+  margin-bottom: 0;
 }
 /* Typewriter effect 1 */
 
@@ -169,7 +171,7 @@ h2 {
 
 .btn-container {
   margin-left: 30%;
-  margin-top: 5%;
+  margin-top: 100px;
   font-family: Lato, sans-serif;
 }
 
@@ -194,7 +196,6 @@ h2 {
 
 .btncontainer {
   margin-left: 30%;
-  margin-top: 10%;
 }
 
 @keyframes blink_ {
@@ -291,7 +292,6 @@ h2 {
 
 .title_and_btns {
   margin-left: 5%;
-  margin-top: 1%;
   color: white;
   font-size: large;
   font-weight: 800;
@@ -373,7 +373,6 @@ h2 {
 .project_info_con {
   margin-left: 3%;
   margin-right: 3%;
-  margin-top: 5%;
 }
 
 .project_info {
