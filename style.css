@@ -409,3 +409,50 @@ h2 {
 .views {
     margin-right: 2%;
 }
+
+@media screen and (max-width:700px) {
+    .dash {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .btn {
+        margin-left: 0%;
+    }
+    .btn-container {
+        margin-left: 10%;
+        text-align: center;
+        align-items: center;
+    }
+    .dash {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .btn {
+        margin-left: 0%;
+    }
+    .btn-container {
+        margin-left: 35%;
+        text-align: center;
+        align-items: center;
+    }
+    .dash {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .btn {
+        float: left;
+        margin-left: 0%;
+    }
+    .dash {
+        visibility: hidden;
+    }
+    .c_b_1 {
+        visibility: hidden;
+    }
+}
