@@ -460,3 +460,40 @@ h2 {
         visibility: hidden;
     }
 }
+.mner {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    /* height: 30px; */
+    width: 100%;
+    /* background: #999; */
+}
+
+.alert {
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: rgb(54, 54, 54);
+}
