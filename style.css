@@ -10,7 +10,11 @@ body {
     margin-right: auto;
     height: 150px;
 }
-
+    .mner {
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
 h2 {
     text-align: center;
     font-size: 9vmin;
