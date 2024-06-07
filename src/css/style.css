@@ -5,16 +5,18 @@ body {
 
 #logo {
     margin-top: 3%;
-    display: block; 
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: 150px;
 }
-    .mner {
-            visibility: hidden;
-            height: 0px;
-            width: 0px;
-        }
+
+.mner {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
 h2 {
     text-align: center;
     font-size: 9vmin;
@@ -29,86 +31,107 @@ h2 {
 /* Typewriter effect 1 */
 
 @keyframes typing {
+
     0.0000%,
     27.3488% {
         content: "";
     }
+
     1.1395%,
     26.2093% {
         content: "a";
     }
+
     2.2791%,
     25.0698% {
         content: "ar";
     }
+
     3.4186%,
     23.9302% {
         content: "aro";
     }
+
     4.5581%,
     22.7907% {
         content: "arou";
     }
+
     5.6977%,
     21.6512% {
         content: "aroun";
     }
+
     6.8372%,
     20.5116% {
         content: "around";
     }
+
     7.9767%,
     19.3721% {
         content: "around.";
     }
+
     9.1163%,
     18.2326% {
         content: "around..";
     }
+
     10.2558%,
     17.0930% {
         content: "around...";
     }
+
     30.7674%,
     51.2791% {
         content: "";
     }
+
     31.9070%,
     50.1395% {
         content: "y";
     }
+
     33.0465%,
     49.0000% {
         content: "yo";
     }
+
     34.1860%,
     47.8605% {
         content: "you";
     }
+
     35.3256%,
     46.7209% {
         content: "you ";
     }
+
     36.4651%,
     45.5814% {
         content: "you a";
     }
+
     37.6047%,
     44.4419% {
         content: "you ar";
     }
+
     38.6977%,
     43.2093% {
         content: "you are";
     }
+
     39.8372%,
     42.0698% {
         content: "you are.";
     }
+
     40.9767%,
     41.9302% {
         content: "you are..";
     }
+
     41.1163%,
     40.7907% {
         content: "you are...";
@@ -116,10 +139,12 @@ h2 {
 }
 
 @keyframes blink {
+
     0%,
     100% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
@@ -152,15 +177,19 @@ h2 {
     .typewriter::after {
         animation: none;
     }
+
     @keyframes sequencePopup {
+
         0%,
         100% {
             content: "around.";
         }
+
         30% {
             content: "way you are.";
         }
     }
+
     .typewriter::before {
         content: "around";
         animation: sequencePopup 12s linear infinite;
@@ -208,6 +237,7 @@ h2 {
     from {
         background-color: white;
     }
+
     to {
         background-color: #181818;
     }
@@ -277,21 +307,21 @@ h2 {
     margin-bottom: 3%;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     border-radius: 5px;
     background: #181818;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: rgb(255, 255, 255);
 }
 
- ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: whitesmoke;
 }
 
@@ -424,11 +454,13 @@ h2 {
     .btn {
         margin-left: 0%;
     }
+
     .btn-container {
         margin-left: 10%;
         text-align: center;
         align-items: center;
     }
+
     .dash {
         visibility: hidden;
     }
@@ -438,11 +470,13 @@ h2 {
     .btn {
         margin-left: 0%;
     }
+
     .btn-container {
         margin-left: 35%;
         text-align: center;
         align-items: center;
     }
+
     .dash {
         visibility: hidden;
     }
@@ -453,18 +487,22 @@ h2 {
         float: left;
         margin-left: 0%;
     }
+
     .dash {
         visibility: hidden;
     }
+
     .c_b_1 {
         visibility: hidden;
     }
 }
+
 .mner {
     visibility: hidden;
     height: 0px;
     width: 0px;
 }
+
 #footer {
     position: fixed;
     left: 0px;
